@@ -1,0 +1,67 @@
+#div01{width: 100%;height: 40px; padding: 10px; background-color: #aaa}
+#div02{width: 100%;height: 20px; padding: 10px; background-color: rgba(0, 0, 0, 0.7)}
+
+#menuTopo{overflow: hidden;}
+#logo, #menuTopo, #search, #store{float: left; padding: 5px;}
+#logo, #menuTopo li, #search, #store{display: inline; padding-left: 25px;padding-right: 25px;}
+#menuTopo li:hover{background: white}
+#logo, #menuTopo, #search, #store{position: relative; bottom: 35px; left: 450px;}
+
+
+
+/*#banner{width: 500px; height: 550px; margin: 0 auto; overflow: hidden;
+background: url(imagens/air_pad-2.png)no-repeat center; top: 50%; left: 50%; transform: translate(-70%,20%);}*/
+    
+/*#letras{position: absolute;top: 100px;right: 520px;}*/
+
+body,ul{padding:0; margin:0; list-style: none;}
+
+body
+{
+    /*overflow: hidden;*/
+}
+
+#banner
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 20%;
+    left: 40%;
+    background-image: url("imagens/air_pad-2.png");
+    background-repeat: no-repeat;
+    background-position-y: 100px;
+}
+
+#menuTopo{
+    text-decoration: none;
+}
+
+#letras
+{
+    position: relative;
+    bottom: 120px;
+    left: 3%;
+    font-family: calibri;
+    font-size: 35px;
+    font-style: inherit;
+}
+
+.iphonex{
+    position: absolute;
+    top: 70%;
+    right: 250px;
+    background-image: url("imagens/iphone_x.png");
+}
+
+#iphone
+{
+    position: absolute;
+    left: 45%;
+    bottom: 10%;
+    font-family: georgia;
+    font-size: 35px;
+    font-style: inherit;
+}
+
+
