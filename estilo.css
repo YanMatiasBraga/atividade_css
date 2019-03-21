@@ -1,20 +1,28 @@
 #div01{width: 100%;height: 40px; padding: 10px; background-color: #aaa}
 #div02{width: 100%;height: 20px; padding: 10px; background-color: rgba(0, 0, 0, 0.7)}
 
-#menuTopo{overflow: hidden;}
+#menuTopo{overflow: hidden; text-decoration: none;}
 #logo, #menuTopo, #search, #store{float: left; padding: 5px;}
 #logo, #menuTopo li, #search, #store{display: inline; padding-left: 25px;padding-right: 25px;}
-#menuTopo li:hover{background: white}
+#menuTopo{color: black;text-decoration: none;}
 #logo, #menuTopo, #search, #store{position: relative; bottom: 35px; left: 450px;}
 
+#menuTopo a{
+    text-decoration: none;
+    color: white;
+    font-family: calibri;
+}
 
+#menuTopo a:hover{
+ color: gray;   
+}
 
 /*#banner{width: 500px; height: 550px; margin: 0 auto; overflow: hidden;
 background: url(imagens/air_pad-2.png)no-repeat center; top: 50%; left: 50%; transform: translate(-70%,20%);}*/
     
 /*#letras{position: absolute;top: 100px;right: 520px;}*/
 
-body,ul{padding:0; margin:0; list-style: none;}
+body,ul{padding:0; margin:0;}
 
 body
 {
@@ -33,9 +41,7 @@ body
     background-position-y: 100px;
 }
 
-#menuTopo{
-    text-decoration: none;
-}
+
 
 #letras
 {
